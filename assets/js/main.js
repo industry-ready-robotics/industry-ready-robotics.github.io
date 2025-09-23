@@ -94,20 +94,6 @@
         })
     );
 
-
-    //===== glide tiny for testimonial
-    
-    tns({
-        container: '.testimonial_active',
-        items: 1,
-        slideBy: 'page',
-        autoplay: false,
-        mouseDrag: true,
-        gutter: 0,
-        nav: true,
-        controls: false,
-    });
-
     //WOW Scroll Spy
     var wow = new WOW({
         //disabled for mobile
