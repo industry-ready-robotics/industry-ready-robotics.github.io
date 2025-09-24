@@ -19,15 +19,15 @@
     ======================================= */
     window.onscroll = function () {
         var header_navbar = document.getElementById("header_navbar");
-        var logo = document.querySelector("img#logo");
+        var logo = document.querySelector("a#logo");
         var sticky = header_navbar.offsetTop;
 
         if (window.pageYOffset > sticky) {
             header_navbar.classList.add("sticky");
-            logo.setAttribute("src", "assets/images/logo-2.svg")
+            logo.setAttribute("style", "color: #E84E4E; font-size:30px;")
         } else {
             header_navbar.classList.remove("sticky");
-            logo.setAttribute("src", "assets/images/logo.svg")
+            logo.setAttribute("style", "color: #fff; font-size:30px;")
         }
 
 

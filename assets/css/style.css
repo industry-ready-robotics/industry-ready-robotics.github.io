@@ -1116,7 +1116,7 @@ p {
 }
 
 .single_team img {
-  width: 100%;
+  width: 90%;
 }
 
 .single_team .team_content {
@@ -1124,16 +1124,22 @@ p {
   background-color: #fff;
   left: 0;
   bottom: 0;
-  width: 85%;
-  padding: 15px;
+  width: 75%;
+  padding: 10px;
   padding-right: 60px;
 }
 
 .single_team .team_content .team_name a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   color: #2B2A3D;
   transition: all 0.3s ease-out 0s;
+}
+
+.single_team .team_content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 2px;
 }
 
 .single_team .team_content .team_name a:hover {
@@ -1141,7 +1147,7 @@ p {
 }
 
 .single_team .team_content p {
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .single_team .team_content .social {
@@ -1464,6 +1470,12 @@ p.form-message.success.form-message.error, p.form-message.error.form-message.err
 }
 
 /*===== PRELIMINARY PROGRAM =====*/
+.program-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .program-container {
   position: absolute;
   width: 100%;
